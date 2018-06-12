@@ -7,7 +7,7 @@ import Ad from './Ad'
 import ClickBait from './ClickBait';
 import Avatar from './Avatar';
 import ButtonPanel from './ButtonPanel';
-
+import Copyright from './Copyright';
 class App extends Component {
   render() {
     return (
@@ -25,12 +25,11 @@ class App extends Component {
           </aside>
           <div className="small-12 columns other-articles">
             <h2>From around the Realm</h2>
-              <ClickBait />
+            <ClickBait />
           </div>
         </main>
         <footer className="expanded row">
-          <h6>&copy; 2017 Erebor Industries</h6>
-          <h6 className="float-right">All rights reserved</h6>
+          <Copyright />
         </footer>
       </div>
     );
